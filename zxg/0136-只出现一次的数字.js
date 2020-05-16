@@ -1,5 +1,5 @@
 /**
- * 只出现一次的数字
+ * 只出现一次的数字 https://leetcode-cn.com/problems/single-number/
  * 
  * 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
  * 
@@ -33,14 +33,14 @@ console.log('result', singleNumber2([2, 2, 3, 3, 1]));
  */
 let singleNumber = (nums) => {
   return nums.reduce((pre, next, index, arr) => {
-    if (pre.includes(next)) {
-      pre.splice(pre.indexOf(next), 1);
-      return arr.length - 1 === index ? pre[0] : pre;
+    if (pre.hasOwnProperty(next)) {
+      delete pre[next];
+      return arr.length - 1 === index ? Object.keys(pre)[0] : pre;
     } else {
-      pre.push(next);
-      return arr.length - 1 === index ? pre[0] : pre;
+      pre[next] = next;
+      return arr.length - 1 === index ? Object.keys(pre)[0] : pre;
     }
-  }, []);
+  }, {});
 };
 
 console.log('result', singleNumber([1, 2, 2, 3, 3]));

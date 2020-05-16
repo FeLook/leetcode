@@ -1,6 +1,13 @@
-# leetcode
+# 算法
 
 冲冲冲！！！
+
+## 题库
+
+* [算法+101](https://101.zoo.team/)
+  * 站点版：https://101.zoo.team
+  * PDF版：https://pan.baidu.com/s/1fMnLlYRZ7gRdcFdC_Kwitw（提取码：qn5z）
+* [leetcode](https://leetcode-cn.com/problemset/all/)
 
 ## 文件目录
 
@@ -16,15 +23,22 @@
 
 ## code 记录
 
-> 2020-05-18 ~  2020-05-24 **字符串**
+### 2020-05-18 ~  2020-05-24
 
-* 2020-05-18 一  `Part 1 - 翻转数组`
-* 2020-05-19 二  `Part 1 - 有效的字母异位词`
-* 2020-05-20 三  `Part 1 - 字符串翻转整数`
-* 2020-05-21 四  `Part 2 - 报数`
-* 2020-05-22 五  `Part 2 - 反转字符串`
+* 2020-05-18 一
+  * `字符串1-翻转整数`
+* 2020-05-19 二
+  * `字符串1-有效的字母异位词`
+* 2020-05-20 三  
+  * `字符串1-字符串翻转整数`
+* 2020-05-21 四
+  * `字符串2-报数`
+* 2020-05-22 五
+  * `字符串2-反转字符串`
 
-> 2020-05-14 ~  2020-05-17 **leetcode**
+### 2020-05-14 ~  2020-05-17
 
-* 2020-05-14 四 [136-只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
-* 2020-05-15 五 [001-两数之和](https://leetcode-cn.com/problems/two-sum/)
+* 2020-05-14 四
+  * [0136-只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
+* 2020-05-15 五
+  * [0001-两数之和](https://leetcode-cn.com/problems/two-sum/)
