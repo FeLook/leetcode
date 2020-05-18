@@ -43,3 +43,8 @@
   * [0136-只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 * 2020-05-15 五
   * [0001-两数之和](https://leetcode-cn.com/problems/two-sum/)
+  
+### 2020-05-18 ~  2020-05-24
+
+* 2020-05-18 一
+  * [007-整数反转](https://leetcode-cn.com/problems/reverse-integer/)
