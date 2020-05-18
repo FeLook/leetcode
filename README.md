@@ -29,9 +29,9 @@
 * 2020-05-18 一
   * [0007-字符串-翻转整数](https://leetcode-cn.com/problems/reverse-integer/)
 * 2020-05-19 二
-  * `字符串1-有效的字母异位词`
+  * [0242-字符串-有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
 * 2020-05-20 三  
-  * `字符串1-字符串翻转整数`
+  * [0008-字符串-字符串翻转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 * 2020-05-21 四
   * `字符串2-报数`
 * 2020-05-22 五
