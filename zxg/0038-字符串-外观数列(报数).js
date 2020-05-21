@@ -7,9 +7,6 @@
   4.     1211 即一个1一个2一个1：1211
   5.     111221 一个1一个2，两个1（两个1是连续的，因此就是两个1）111221
   6.     312211 三个1，两个2，一个1 即 312211
-  7.     13112221
-  8.     1113213211
-  11.    11131221133112132113212221 
 
   给定一个正整数 n（1 ≤ n ≤ 30），输出外观数列的第 n 项。
 
@@ -18,10 +15,30 @@
  */
 
 
- /**
-   * @param {number} n
-   * @return {string}
-   */
-var countAndSay = function(n) {
+/**
+  * @param {number} n
+  * @return {string}
+  */
+var countAndSay = (function () {
+  let s = 1;
+  let memo = {
+    [s]: '1'
+  };
 
-};
+  let mid = function (n) {
+    while (!memo[n]) {
+      // 正则 \1 多个相同字符
+      memo[s+1] = memo[s].replace(/(\d)\1*/g, item => `${item.length}${item[0]}`);
+      s++;
+    }
+    return memo[n];
+  }
+  return mid;
+}());
+
+
+console.log('result', countAndSay(5));
+console.log('result', countAndSay(4));
+// console.log('result', countAndSay(2));
+// console.log('result', countAndSay(1));
+
