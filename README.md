@@ -25,6 +25,20 @@
 
 ## code 记录
 
+### 2020-05-25 ~  2020-05-31
+
+* 2020-05-25 一
+  * [0387-字符串-字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
+* 2020-05-26 二
+  * [0125-字符串-验证回文串](https://leetcode-cn.com/problems/valid-palindrome/)
+* 2020-05-27 三  
+  * [0028-字符串-实现strStr()](https://leetcode-cn.com/problems/implement-strstr/)
+* 2020-05-28 四
+  * [0014-字符串-最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
+* 2020-05-29 五
+  * [0005-字符串-最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
+
+
 ### 2020-05-18 ~  2020-05-24
 
 * 2020-05-18 一
