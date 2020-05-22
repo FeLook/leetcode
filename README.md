@@ -34,9 +34,9 @@
 * 2020-05-20 三  
   * [0008-字符串-字符串翻转整数](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 * 2020-05-21 四
-  * `字符串2-报数`
+  * [0038-字符串-外观数列(报数)](https://leetcode-cn.com/problems/count-and-say/description/)
 * 2020-05-22 五
-  * `字符串2-反转字符串`
+  * [0344-字符串-反转字符串](https://leetcode-cn.com/problems/reverse-string/)
 
 ### 2020-05-14 ~  2020-05-17
 
