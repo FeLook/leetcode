@@ -13,37 +13,26 @@
  */
 
 /**
- * @param {string} s
+ * @param {string} str
  * @return {number}
  */
-var firstUniqChar = function (str) {
-  if (!str.length) return -1;
-  let oMap = new Map();
-
-  for (const v of str) {
-    let val = oMap.get(v) || 0;
-    oMap.set(v, ++val)
+const firstUniqChar = function (str) {
+  let arr = {},
+    key;
+  for (let i in str) {
+    key = str[i];
+    if (arr[key] >= 1) {
+      arr[key] += 1;
+    } else {
+      arr[key] = 1;
+    }
   }
-
-  for (const [key, value] of oMap) {
-    if (value === 1) {
-      return str.indexOf(key)
+  for (let j in str) {
+    if (arr[str[j]] == 1) {
+      return parseInt(j);
     }
   }
   return -1;
 };
 
-console.log(firstUniqChar('lallll'));
-
-
-
-
-// 用 indexOf  lastIndexOf 处理
-const firstUniqChar2 = function (s) {
-  for (let i = 0; i < s.length; i += 1) {
-    if (s.indexOf(s[i]) === s.lastIndexOf(s[i])) {
-      return i;
-    }
-  }
-  return -1;
-};
+console.log(firstUniqChar("lallll"));
