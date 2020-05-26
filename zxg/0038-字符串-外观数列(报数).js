@@ -27,7 +27,7 @@ var countAndSay = (function () {
 
   let mid = function (n) {
     while (!memo[n]) {
-      // 正则 \1 多个相同字符
+      // REVIEW: 正则 \1 多个相同字符
       memo[s+1] = memo[s].replace(/(\d)\1*/g, item => `${item.length}${item[0]}`);
       s++;
     }
