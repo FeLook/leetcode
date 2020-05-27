@@ -41,5 +41,4 @@ class Solution:
     
     return -1
 
-print(''.join(['h','l']))
 print(Solution.strStr(Solution, 'hello', 'll'))
