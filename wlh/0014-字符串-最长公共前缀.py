@@ -34,15 +34,16 @@ class Solution:
     public_prefix = ''
     if len(strs) == 0:
       return public_prefix
-    
+
     first_word = strs[0]
     for i in range(len(first_word)):
-      tmp = first_word[0:i+1]
+      tmp = first_word[0:i + 1]
       for word in strs:
         if tmp != word[0: i + 1]:
           return public_prefix
       public_prefix = tmp
-      
+
     return public_prefix
-  
-print(Solution.longestCommonPrefix(Solution, ['hello','hi']))
+
+
+print(Solution.longestCommonPrefix(Solution, ['hello', 'hi']))
