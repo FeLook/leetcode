@@ -26,6 +26,19 @@
 
 ## code 记录
 
+### 2020-06-01 ~  2020-06-07
+
+* 2020-05-25 一
+  * [0013-数学-罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
+* 2020-05-26 二
+  * [0412-数学-Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)
+* 2020-05-27 三  
+  * [0204-数学-计算质数](https://leetcode-cn.com/problems/count-primes/)
+* 2020-05-28 四
+  * [0326-数字-3的幂](https://leetcode-cn.com/problems/power-of-three/)
+* 2020-05-29 五
+  * [0171-数字-Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/)
+
 ### 2020-05-25 ~  2020-05-31
 
 * 2020-05-25 一
