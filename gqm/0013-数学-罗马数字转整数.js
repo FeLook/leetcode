@@ -17,10 +17,10 @@
  */
 const romanToIntOne = function (num) {
   let result = 0;
-  if (s.includes("IV") || s.includes("IX")) result -= 2;
-  if (s.includes("XL") || s.includes("XC")) result -= 20;
-  if (s.includes("CD") || s.includes("CM")) result -= 200;
-  for (let c of s) {
+  if (num.includes("IV") || num.includes("IX")) result -= 2;
+  if (num.includes("XL") || num.includes("XC")) result -= 20;
+  if (num.includes("CD") || num.includes("CM")) result -= 200;
+  for (let c of num) {
     switch (c) {
       case "I":
         result += 1;break;
