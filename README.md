@@ -26,6 +26,19 @@
 
 ## code 记录
 
+### 2020-06-08 ~  2020-06-15
+
+* 2020-06-08 一
+  * [0202-数学-快乐数](https://leetcode-cn.com/problems/happy-number/)
+* 2020-06-09 二
+  * [0172-数学-阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/)
+* 2020-06-10 三  
+  * [0050-数学-Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
+* 2020-06-11 四
+  * [0326-数字-两数相除](https://leetcode-cn.com/problems/divide-two-integers/)
+* 2020-06-12 五
+  * [0171-数字-分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/)
+
 ### 2020-06-01 ~  2020-06-07
 
 * 2020-06-01 一
