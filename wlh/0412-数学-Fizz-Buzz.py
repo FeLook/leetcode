@@ -33,19 +33,21 @@ from typing import List
 class Solution:
   def fizzBuzz(self, n: int) -> List[str]:
     result = []
-    for i in range(1, n + 1):
-      if i % 15 == 0:
-        result.append('FizzBuzz')
-        continue
-      if i % 3 == 0:
-        result.append('Fizz')
-        continue
-      if i % 5 == 0:
-        result.append('Buzz')
-        continue
-        
-      result.append(str(i))
-      
+    for i in range(n):
+      result.append(str(i + 1))
+    
+    n3 = n // 3
+    for i in range(1, n3 + 1):
+      result[i * 3 -1] = 'Fizz'
+
+    n5 = n // 5
+    for i in range(1, n5 + 1):
+      result[i * 5 - 1] = 'Buzz'
+
+    n15 = n // 15
+    for i in range(1, n15 + 1):
+      result[i * 15 - 1] = 'FizzBuzz'
+    
     return result
     
-print(Solution.fizzBuzz(Solution, 1))
+print(Solution.fizzBuzz(Solution, 100))
