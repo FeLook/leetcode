@@ -26,6 +26,20 @@
 
 ## code 记录
 
+### 2020-06-15 ~  2020-06-19
+
+* 2020-06-15 一
+  * [0069-数学-x的平方根](https://leetcode-cn.com/problems/sqrtx/)
+* 2020-06-16 二
+  * [0189-数组-旋转数组](https://leetcode-cn.com/problems/rotate-array/)
+* 2020-06-17 三  
+  * [0026-数组-去重](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+* 2020-06-18 四
+  * [0066-数组-加一](https://leetcode-cn.com/problems/plus-one/)
+* 2020-06-19 五
+  * [0048-数组-旋转图像](https://leetcode-cn.com/problems/rotate-image/)
+
+
 ### 2020-06-08 ~  2020-06-15
 
 * 2020-06-08 一
