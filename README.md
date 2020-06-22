@@ -26,6 +26,16 @@
 
 ## code 记录
 
+### 2020-06-22 ~  2020-06-24
+
+* 2020-06-22 一
+  * [0026-数组-删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+* 2020-06-23 二
+  * [0066-数组-加一](https://leetcode-cn.com/problems/plus-one/)
+* 2020-06-24 三  
+  * [00121-数组-买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+
+
 ### 2020-06-15 ~  2020-06-19
 
 * 2020-06-15 一
