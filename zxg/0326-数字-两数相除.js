@@ -25,5 +25,4 @@
  * @return {number}
  */
 var divide = function(dividend, divisor) {
-
 };
