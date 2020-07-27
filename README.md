@@ -29,15 +29,15 @@
 ### 2020-07-27 ~  2020-07-31
 
 * 2020-07-27 一
-  * [0026-数组-移动零](https://leetcode-cn.com/problems/move-zeroes/)
+  * [0283-数组-移动零](https://leetcode-cn.com/problems/move-zeroes/)
 * 2020-07-28 二
-  * [0066-数组-两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+  * [0349-数组-两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 * 2020-07-29 三  
-  * [00121-数组-一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/)
+  * [1185-数组-一周中的第几天](https://leetcode-cn.com/problems/day-of-the-week/)
 * 2020-07-30 四  
-  * [00121-数组-有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)
+  * [0036-数组-有效的数独](https://leetcode-cn.com/problems/valid-sudoku/)
 * 2020-07-31 五  
-  * [00121-数组-除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)
+  * [0238-数组-除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)
 
 ### 2020-06-22 ~  2020-06-24
 
