@@ -26,6 +26,17 @@
 
 ## code 记录
 
+### 2020-08-03 ~  2020-08-07
+
+* 2020-07-27 一
+  * [剑指offer-006-字符串排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)
+* 2020-07-28 二
+  * [剑指offer-007-替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
+* 2020-07-29 三  
+  * [剑指offer-008-旋转数组中最小的数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
+* 2020-07-30 四  
+* 2020-07-31 五  
+
 ### 2020-07-27 ~  2020-07-31
 
 * 2020-07-27 一
