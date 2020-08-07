@@ -37,7 +37,7 @@
 * 2020-07-30 四 
   * [剑指offer-009-数组统计]
 * 2020-07-31 五  
-
+  * [剑指offer-010-判断扑克牌是不是顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
 ### 2020-07-27 ~  2020-07-31
 
 * 2020-07-27 一
