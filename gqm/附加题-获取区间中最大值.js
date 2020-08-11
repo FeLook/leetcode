@@ -5,25 +5,27 @@
  * 如数列a为: 3 1 6 4 5 2; 则X值最大的区间为6, 4, 5, X = 4 * (6+4+5) = 60;
  * 
  */
-const sum = (data) => {
-  const min = Math.min(...data)
-  const sums = data.reduce((pre, cur) =>  pre + cur)
-  return min * sums
-}
+
 
 const getSums = (arr) => {
   let length = arr.length, max = 0
   if (!length) return 0
-  
-  for(let j = 1 ;j < arr.length; j++){
-      const newArr = arr.slice(i, j)
-      if(sum(newArr) > max){
-        max = sum(newArr)
-      }else {
-        i++
-      }
+  const sum = (data) => {
+    const min = Math.min(...data)
+    const sums = data.reduce((pre, cur) =>  pre + cur)
+    return min * sums
+  }
+  for(let i = 0 ;i <= arr.length - 1; i++){
+    for(let j = 1 ;j <= arr.length; j++){
+        const newArr = arr.slice(i, j)
+        if(newArr.length && sum(newArr) > max){
+          max = sum(newArr)
+        }
+    }
   }
   return max
 }
 
-console.log(getSums([3,1,6,4,5,2]))
+console.log(getSums([1,2,3]))
+console.log(getSums([200,3]))
+console.log(getSums([3,2,6,5,4]))
