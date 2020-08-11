@@ -26,25 +26,27 @@
 
 ## code 记录
 
-### 2020-08-10 ~  2020-08-14
-* 2020-07-27 一
+### 2020-08-10 ~ 2020-08-14
+* 2020-08-10 一
   * [剑指offer-053-n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/)
+* 2020-08-11 二
+  * [剑指-offer-48-最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)
 
 
-### 2020-08-03 ~  2020-08-07
+### 2020-08-03 ~ 2020-08-07
 
-* 2020-07-27 一
+* 2020-08-03 一
   * [剑指offer-006-字符串排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)
-* 2020-07-28 二
+* 2020-08-04 二
   * [剑指offer-007-替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
-* 2020-07-29 三  
+* 2020-08-05 三  
   * [剑指offer-008-旋转数组中最小的数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
-* 2020-07-30 四 
+* 2020-08-06 四 
   * [剑指offer-009-数组统计]
-* 2020-07-31 五  
+* 2020-08-07 五  
   * [剑指offer-010-判断扑克牌是不是顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)
   
-### 2020-07-27 ~  2020-07-31
+### 2020-07-27 ~ 2020-07-31
 
 * 2020-07-27 一
   * [0283-数组-移动零](https://leetcode-cn.com/problems/move-zeroes/)
