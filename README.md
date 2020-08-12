@@ -30,8 +30,9 @@
 * 2020-08-10 一
   * [剑指offer-053-n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/)
 * 2020-08-11 二
-  * [剑指-offer-48-最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)
-
+  * [剑指offer-48-最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)
+* 2020-08-12 三
+  * [剑指offer-13-机器人的运动轨迹](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
 
 ### 2020-08-03 ~ 2020-08-07
 
