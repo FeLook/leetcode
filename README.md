@@ -38,6 +38,10 @@
   * [剑指offer-48-最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)
 * 2020-08-12 三
   * [剑指offer-13-机器人的运动轨迹](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
+* 2020-08-13 四
+  * [剑指offer-13-用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
+* 2020-08-14 五
+  * [剑指offer-03-数组中重复的数字](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)
 
 ### 2020-08-03 ~ 2020-08-07
 
