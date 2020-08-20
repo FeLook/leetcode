@@ -29,6 +29,10 @@
 ### 2020-08-17 ~ 2020-08-20
 * 2020-08-17 二
   * [剑指-Offer-22-链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
+* 2020-08-18 三
+  * [剑指-Offer-1-两数之和](https://leetcode-cn.com/problems/two-sum/)
+* 2020-08-19 四
+  * [剑指-Offer-21-调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/submissions/)
 
 
 ### 2020-08-10 ~ 2020-08-14

@@ -25,3 +25,23 @@ function getSumIndex(nums,target) {
 }
 
 getSumIndex([3,2,4],6)
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+let twoSum = (nums, target) => {
+  let obj = {};
+  for (let i = 0; i < nums.length; i++) {
+    let val = nums[i];
+    let diff = target - val;
+    if (obj[diff] !== undefined) {
+      return [obj[diff], i];
+    } else {
+      obj[val] = i;
+    }
+  }
+};
+
+console.log('result', twoSum([2, 7, 11, 15], 9));
