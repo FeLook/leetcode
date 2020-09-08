@@ -27,10 +27,11 @@ class Depository {
   transferIn(data) {
     const newData = this.flat(data);
     for (let n in newData) {
-      if (!this.wareHouse[n]) {this.wareHouse[n] = newData[n]}else {
+      if (!this.wareHouse[n]) {
+        this.wareHouse[n] = newData[n];
+      } else {
         this.wareHouse[n] += newData[n];
       }
-      
     }
     console.log("存储成功", this.wareHouse);
   }
@@ -40,20 +41,26 @@ class Depository {
     for (let n in this.diffHoust) {
       if (!this.wareHouse[n]) {
         console.log("当前类目不存在，爆仓了");
-        break;
+        return;
       }
       if (this.wareHouse[n] - this.diffHoust[n] < 0) {
+        debugger
         console.log("当前类目商品不够，爆仓了");
-        break;
+        return;
       }
       this.wareHouse[n] -= this.diffHoust[n];
     }
+    console.log("当前仓库中商品数量：", this.wareHouse);
   }
-
-
 }
 
 const newObject = new Depository();
 
-newObject.transferIn({ parductA: { a: 1, b: 1, c: { c1: 1, c2: 2 } } });
-// newObject.transferIn({ parductB: { a: 10, b: 1, c: { c1: 1, c2: 2 } } });
+newObject.transferIn({
+  parductA: { a: 1, b: 1, c: { c1: 1, c2: 2, c3: { c3A: 1 } } },
+});
+newObject.transferIn({ parductB: { a: 10, b: 1, c: { c1: 1, c2: 2 } } });
+
+newObject.transferOut({ parductC: { a: 10 } });
+newObject.transferOut({ parductB: { a: 5 } });
+newObject.transferOut({ parductA: { a: 1, c: { c3: { c3A: 1 } } } });
