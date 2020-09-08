@@ -37,26 +37,26 @@ for (int i = 0; i < len; i++) {
 }
  */
 
- // 去重后直接改变原数组的值
+// 去重后直接改变原数组的值
 const arrsort = (arr) => {
-  let newArr = Array.from(new Set(arr))
-  for(let i = 1;i < arr.length ;i++){
-        arr[i] = typeof newArr[i] !== 'number' ? arr[i] : newArr[i];
-    }
-  return newArr.length
-}
+  let newArr = Array.from(new Set(arr));
+  for (let i = 1; i < arr.length; i++) {
+    arr[i] = typeof newArr[i] !== "number" ? arr[i] : newArr[i];
+  }
+  return newArr.length;
+};
 
 const arrsort1 = (arr) => {
-  var j = 0;
-  var n = arr.length;
-  for(let i = 1;i<n;i++){
-      if(arr[i]!=arr[i-1]){
-          j++;
-          arr[j] = arr[i];
-      }
+  const j = 0;
+  const n = arr.length;
+  for (let i = 1; i < n; i++) {
+    if (arr[i] != arr[i - 1]) {
+      j++;
+      arr[j] = arr[i];
+    }
   }
-  return j+1
-}
-let arr1 = [0,0,1,1,1,2,2,3,3,4]
-console.log(arrsort(arr1))
-console.log(arr1)
+  return j + 1;
+};
+let arr1 = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+console.log(arrsort(arr1));
+console.log(arrsort1(arr1));
