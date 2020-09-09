@@ -62,8 +62,12 @@ function convert(num) {
 
   const point = parseInt(num / 26)
   const ones = num % 26
-
-  return `${letter2num[point - 1]}${letter2num[ones === 0 ? 0 : ones - 1]}`
+  if(ones === 0){
+    // 说明整除了
+    return `${letter2num[point - 2]}Z`
+  }else {
+    return `${letter2num[point - 1]}${letter2num[ones - 1]}`
+  }
 }
 
 
