@@ -32,8 +32,10 @@
 * 2020-09-08 二
   * [2020-09-08] 仓储管理
 * 2020-09-09 三
-  * [2020-09-08-两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
-  
+  * [2020-09-09-两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+* 2020-09-10 四
+  * [2020-09-10] 猜数字
+   
 ### 2020-08-31 ~ 2020-09-04
 * 2020-08-31 一
   * [剑指-Offer-35-复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)
