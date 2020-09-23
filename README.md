@@ -26,6 +26,14 @@
 
 ## code 记录
 
+### 2020-09-14 ~ 2020-09-18
+* 2020-09-14 一
+  * [2020-09-14-爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
+* 2020-09-15 二
+  * [2020-09-15-删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)
+* 2020-09-16 三
+  * [2020-09-16-Nim游戏](https://leetcode-cn.com/problems/nim-game/)
+   
 ### 2020-09-07 ~ 2020-09-11
 * 2020-09-07 一
   * [2020-09-07] 数字加一

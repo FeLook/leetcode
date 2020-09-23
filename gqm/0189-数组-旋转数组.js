@@ -23,8 +23,8 @@
 
 
 const goRightArray = (arr, num) => {
-  if(!arr) return
-  if(!num) return arr
+  if (!arr) return
+  if (!num) return arr
   for (let i = 0; i < num; i++) {
     const lastone = arr[arr.length - 1];
     arr.pop(arr.length - 1 ,1)

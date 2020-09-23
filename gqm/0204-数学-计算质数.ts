@@ -15,7 +15,7 @@
 * @return {number}
 */
 
-var countPrimes = function (num) {
+const countPrimes = (num: number): number => {
   let arr = [], count = 0
   for (let i = 0; i < num + 1; i++) {
     arr[i] = true // 标记初始化
@@ -31,5 +31,5 @@ var countPrimes = function (num) {
   return count
 };
 
-console.log('result', countPrimes(10));
-console.log('result', countPrimes(15));
+console.log(countPrimes(10));
+console.log(countPrimes(15));
