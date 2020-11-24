@@ -33,3 +33,19 @@ isPalindrome("race a car")
  * 
  * 后来发现原来是倒过来和正过来一样，要了狗命了真的是
  */
+
+/** 回文数 */
+const isSymmetry = (x) => {
+  if ( x < 0 || (x !== 0 && x % 10 === 0)) {
+    return false
+  } else if ( 0 <= x && x < 10) {
+    return true
+  }
+  let y = x
+  let num = 0
+  while(x !== 0) {
+      num = x % 10 + num * 10
+      x = Math.floor(x / 10)
+  }
+  return y === num
+}
