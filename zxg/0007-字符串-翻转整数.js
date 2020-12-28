@@ -75,4 +75,9 @@ console.log('0', reverse2(0));
 
 
 
+var arr = [1, 2, 3, 4];
+
+// var
+
+
 

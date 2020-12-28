@@ -41,3 +41,30 @@ var isHappy = function (n) {
 
 
 console.log('result', isHappy(19));
+
+
+var isHappy = (function () {
+  var arr = [];
+  function fn (n) {
+    let s = n.toString();
+    let res = 0;
+    arr.push(s);
+
+    s.split('').forEach(function(val) {
+      res+= Math.pow(val,2);
+    }, 0);
+    
+    if (res === 1) {
+      return true;
+    } else if (arr.includes(res.toString())) {
+      return false;
+    } else {
+      return fn(res);
+    }
+  }
+  return fn;
+})();
+
+
+console.log('xx', isHappy(19));
+console.log('yy', isHappy(3));
