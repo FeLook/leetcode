@@ -35,10 +35,12 @@ var longestCommonPrefix = function (strs) {
   let nIndex = 0;
   
   while (flag) {
+    // 第一个的每一个值
     const sFirstValueChar = fistVal.substr(nIndex, 1);
     if (fistVal.length > nIndex) {
       for (let j = 0; j < strs.length; j++) {
         const sChar = strs[j].substr(nIndex, 1);
+        // 判断每一个值是否相等
         if (!sChar || sChar !== sFirstValueChar) {
           flag = false;
           break;
