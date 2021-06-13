@@ -1,11 +1,9 @@
 /*
  * @Author: xiaoguang_10@qq.com
  * @LastEditors: xiaoguang_10@qq.com
- * @Date: 2021-05-11 23:10:19
- * @LastEditTime: 2021-05-17 23:13:15
+ * @Date: 2021-05-16 23:00:25
+ * @LastEditTime: 2021-05-18 11:23:00
  */
-
-
 /**
  * 
  * amount = 5, coins = [1, 2, 5]
@@ -14,7 +12,7 @@
   输出: 4
   解释: 有四种方式可以凑成总金额:
   5=5
-  5=2+2+1
+5=2+2+1
   5=2+1+1+1
   5=1+1+1+1+1
 
@@ -49,7 +47,6 @@ var coinChange = function (coins, amount) {
   }
 
 
-
   for (let i = 1; i <= len1; i++) {
     for (let j = 1; j <= amount; j++) {
       dp[i][j] = 0
@@ -58,9 +55,7 @@ var coinChange = function (coins, amount) {
       }
     }
   }
-
   return dp[len1][amount]
-
 };
 
 console.log('coinChange', coinChange([1, 2, 5], 5))

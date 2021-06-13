@@ -2,7 +2,7 @@
  * @Author: xiaoguang_10@qq.com
  * @LastEditors: xiaoguang_10@qq.com
  * @Date: 2020-06-03 00:31:13
- * @LastEditTime: 2021-01-09 14:25:56
+ * @LastEditTime: 2021-05-18 17:53:30
  */
 /*
   给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
@@ -22,21 +22,27 @@
  * @param {string} str
  * @return {string}
  */ 
-var longestPalindrome = function(str) {
-  if (typeof str !== 'string') return
-  let arr = []
-  for (let index = 0; index < str.length; index++) {
-    const singStr = str.charAt(index)
-    if (arr.includes(singStr)) {
-      return str.substring(arr.indexOf(singStr), index + 1)
-    } else {
-      arr.push(singStr)
-    }
+ var longestPalindrome = function(s) {
+  let n = s.length;
+  let result = ''
+  for(let i = 0;i<n;i++){
+      for(let j=i+1;j<=n;j++){
+          let str = s.slice(i,j);
+          let f = str.split('').reverse().join('');
+          
+          if(str == f){
+              result = str.length > result.length ? str : result;
+          }
+      }
   }
+  console.log(result);
+  
+  return result;
 };
 
 console.log(longestPalindrome('cbbd')) // bb
 console.log(longestPalindrome('babad')) // bab
+console.log(longestPalindrome('edeabcba')) // bab
 
 // 建立矩阵 dp
 // 循环遍历字符串，取得不同长度的子串
@@ -92,3 +98,6 @@ const longestPalindrome2 = function (s) {
 
 console.log(longestPalindrome2('cbbd')) // bb
 console.log(longestPalindrome2('babad')) // bab
+
+
+

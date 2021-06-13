@@ -1,3 +1,9 @@
+/*
+ * @Author: xiaoguang_10@qq.com
+ * @LastEditors: xiaoguang_10@qq.com
+ * @Date: 2021-05-11 16:29:01
+ * @LastEditTime: 2021-05-21 10:28:03
+ */
 
 /**
  * 给定一个无序的整数数组，找到其中最长上升子序列的长度。
@@ -32,5 +38,7 @@ var lengthOfLIS2 = function(nums) {
   return result;
 
 }
-
+// 3 
 console.log(lengthOfLIS2([5,9,1,3, 2,9]))
+
+
