@@ -2,7 +2,7 @@
  * @Author: xiaoguang_10@qq.com
  * @LastEditors: xiaoguang_10@qq.com
  * @Date: 2021-03-29 14:36:32
- * @LastEditTime: 2021-03-29 15:11:09
+ * @LastEditTime: 2021-07-12 00:41:21
  */
 
 /**
@@ -28,3 +28,29 @@
 };
 
 console.log('profit', maxProfit([7, 1, 5, 3, 6, 4]))
+
+
+// 一次交易
+function maxProfit(arr) {
+  let result = 0;
+  let min = arr[0]
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < min) {
+      min = arr[i]
+    } else {
+      result = Math.max(result, arr[i] - min)
+    }
+  }
+  return result
+}
+
+// 多次交易 递增时一直累加
+function maxProfit(arr) {
+  let reslut = 0;
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] - arr[i -1] > 0) {
+      reslut = reslut + arr[i] - arr[i -1]
+    }
+  }
+  return reslut
+}

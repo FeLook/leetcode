@@ -2,7 +2,7 @@
  * @Author: xiaoguang_10@qq.com
  * @LastEditors: xiaoguang_10@qq.com
  * @Date: 2021-03-29 15:19:28
- * @LastEditTime: 2021-05-13 01:20:39
+ * @LastEditTime: 2021-07-05 11:48:03
  */
 /**
  * 
@@ -29,7 +29,7 @@ const maxSubArray = function (nums) {
   let dp = [nums[0]];
   for (let i = 1; i < nums.length; i++) {
 		dp[i] = Math.max(dp[i-1]+nums[i], nums[i])
-		result = Math.max(dp[i], result)
+  result = Math.max(dp[i], result)
   }
   return result;
 };

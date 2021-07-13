@@ -2,7 +2,7 @@
  * @Author: xiaoguang_10@qq.com
  * @LastEditors: xiaoguang_10@qq.com
  * @Date: 2021-03-16 22:40:02
- * @LastEditTime: 2021-03-29 15:18:23
+ * @LastEditTime: 2021-06-30 00:05:27
  */
 /**
  * 给定一个数组，它的第 i 个元素是一支给定股票第 i 天的价格。
@@ -87,13 +87,13 @@ console.log('profit', maxProfit2([7, 1, 5, 3, 6, 4]))
  */
  function maxProfit(prices) {
   let maxProfit = 0; // 最大收益
-  let profits = [0]; // 每日最大收益存入数组，第一天初始化为 0
+  let dp = [0]; // 每日最大收益存入数组，第一天初始化为 0
 
   for (i = 1; i < prices.length; i++) {
     // 计算每日可获取的最大收益值
-    profits[i] = Math.max(0, profits[i - 1] + (prices[i] - prices[i - 1]));
-    if (profits[i] > maxProfit) { // 比较该日最大收益与已获取最大收益
-      maxProfit = profits[i];
+    dp[i] = Math.max(0, dp[i - 1] + (prices[i] - prices[i - 1]));
+    if (dp[i] > maxProfit) { // 比较该日最大收益与已获取最大收益
+      maxProfit = dp[i];
     }
   }
 

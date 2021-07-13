@@ -2,7 +2,7 @@
  * @Author: xiaoguang_10@qq.com
  * @LastEditors: xiaoguang_10@qq.com
  * @Date: 2021-05-13 23:21:27
- * @LastEditTime: 2021-05-14 01:54:43
+ * @LastEditTime: 2021-06-29 22:53:48
  */
 /**
  * 
@@ -87,3 +87,13 @@ var minDistance = function(word1, word2) {
 console.log('x', minDistance('dabc', 'abc'))
 console.log('x', minDistance('abc', 'dabc'))
 console.log('x', minDistance('abce', 'abcf'))
+
+
+https://juejin.cn/post/6844903810289123342#heading-35
+
+https://101.zoo.team/zi-fu-chuan/zi-fu-chuan-part-1-fan-zhuan-zheng-shu-you-xiao-de-zi-mu-yi-wei-ci-he-fan-zhuan-zheng-shu
+https://segmentfault.com/a/1190000023783535
+
+https://github.com/Jocs/jocs.github.io/issues/15
+
+

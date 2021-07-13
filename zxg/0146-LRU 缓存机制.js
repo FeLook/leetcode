@@ -2,7 +2,7 @@
  * @Author: xiaoguang_10@qq.com
  * @LastEditors: xiaoguang_10@qq.com
  * @Date: 2021-06-13 17:22:59
- * @LastEditTime: 2021-06-13 17:30:24
+ * @LastEditTime: 2021-06-13 17:36:09
  */
 
 
@@ -33,7 +33,6 @@ LRUCache.prototype.put = function(key, value) {
     this.cache.delete(this.cache.keys().next().value)
   }
   this.cache.set(key, value)
-  
 }
 
 

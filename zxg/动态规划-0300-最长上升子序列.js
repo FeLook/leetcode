@@ -2,7 +2,7 @@
  * @Author: xiaoguang_10@qq.com
  * @LastEditors: xiaoguang_10@qq.com
  * @Date: 2021-05-11 16:29:01
- * @LastEditTime: 2021-05-21 10:28:03
+ * @LastEditTime: 2021-06-29 22:31:03
  */
 
 /**
@@ -35,6 +35,8 @@ var lengthOfLIS2 = function(nums) {
     console.log('dp', dp)
     result = Math.max(result, dp[i] )
   }
+  // result = Math.max.call([], ...dp[i])
+  // result = Math.max(...dp[i])
   return result;
 
 }
@@ -42,3 +44,5 @@ var lengthOfLIS2 = function(nums) {
 console.log(lengthOfLIS2([5,9,1,3, 2,9]))
 
 
+console.log(Math.max.call(null,...[3, 10, 5, 2, 1]))
+console.log(Math.max(...[3, 10, 5, 2, 1]))

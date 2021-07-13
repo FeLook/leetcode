@@ -2,7 +2,7 @@
  * @Author: xiaoguang_10@qq.com
  * @LastEditors: xiaoguang_10@qq.com
  * @Date: 2020-06-03 00:31:13
- * @LastEditTime: 2021-05-18 17:53:30
+ * @LastEditTime: 2021-07-12 02:24:14
  */
 /*
   给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
@@ -17,6 +17,29 @@
   输入: "cbbd"
   输出: "bb"
 */
+
+// 中心扩散法
+function longestPalindrome(str) {
+  if (str.length < 2) {
+    return str
+  }
+  let res = ''
+  for (let i = 0; i < str.length; i++) {
+    helper(i, i)
+    helper(i, i + 1)
+  }
+  function helper(l, r) {
+    while (l >= 0 && r < str.length && str[l] === str[r]) {
+      l--;
+      r++;
+    }
+    if (r - l - 1 > res.length) {
+      res = str.substring(l + 1, r)
+    }
+  }
+
+  return res
+}
 
 /**
  * @param {string} str
